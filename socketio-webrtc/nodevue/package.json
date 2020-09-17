@@ -1,0 +1,37 @@
+{
+  "name": "nodevue",
+  "version": "0.0.0",
+  "description": "sample project for node and vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indiflex/nodevue.git"
+  },
+  "keywords": [
+    "node",
+    "vue"
+  ],
+  "author": "Jade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indiflex/nodevue/issues"
+  },
+  "homepage": "https://github.com/indiflex/nodevue#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "hashmap": "^2.3.0",
+    "mysql": "^2.16.0",
+    "open-graph-scraper": "^3.5.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^1.7.2"
+  }
+}
