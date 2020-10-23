@@ -1,26 +1,18 @@
 
 public class Hello {
 
-	
-    static void myFunction() {
-        System.out.println("return값이 없음, 매개변수 없음");
-    }
-
-    int myAdd(int a, int b) {
-        int c;
-        c = a+b;
-        return c;
-    }
-
-    static void myAdd(String a, int b) {
-
-    }
         
     public static void main(String[] args) {
-		Hello.myFunction();
-         Hello hi = new Hello();
-        int result = hi.myAdd(1,6);
-        System.out.println("더한 값은"+result);
+    	Car car = new Car();
+    	
+    	//부모에게 상속받을 멤버변수, 함수
+    	System.out.println("접근가능" + car.company);
+    	car.start();
+    	
+    	//자식이 생성한 멤버함수, 함수
+    	car.setModelName("Z500");
+    	System.out.println("모델명" + car.getModelName());
+    	car.accelerate();
     }        
 	
 
